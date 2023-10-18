@@ -44,7 +44,7 @@ BEGIN
         FROM AD_INTDDA DDA;
     EXCEPTION
       WHEN NO_DATA_FOUND THEN
-        dbms_output.put_line('Houve um erro...');
+        dbms_output.put_line('Caralho mesmo viu...');
     END;
   
     -- <CÓDIGO ABAIXO IRÁ REALIZAR A ASSOCIAÇÃO ENTRE O ARQUIVO E A MOVIMENTAÇÃO FINANCEIRA>       
